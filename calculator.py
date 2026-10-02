@@ -1,9 +1,10 @@
 def add(a, b):
-    pass
+    return a+b
 
 
 def subtract(a, b):
-	pass
+    return a - b
+
 
 
 def multiply(a, b):
@@ -23,9 +24,17 @@ def abs(a):
 
 
 def mod(a, b):
+    return a % b
 
 
 if __name__ == "__main__":
-    # 간단한 테스트 코
+
+    print("a + b = " + add)
+    print("a - b = " + subtract)
+    print("a * b = " + multiply)
+    print("a / b = " + divide)
+    print("a^b = " + pow)
+    print("abs(a)  = " + abs)
+    print("mod(a,b) = " + mod)
     pass
 

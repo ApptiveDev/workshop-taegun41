@@ -3,7 +3,7 @@ def add(a, b):
 
 
 def subtract(a, b):
-	pass
+    pass
 
 
 def multiply(a, b):
@@ -15,15 +15,24 @@ def divide(a, b):
 
 
 def pow(a, b):
-    return a ** b
+    pass
 
 
 def abs(a):
-    return abs(a)
+    pass
 
 
 def mod(a, b):
+    return a % b
 
 
 if __name__ == "__main__":
-    # 간단한 테스트 코드
+    print("a + b = " + add)
+    print("a - b = " + subtract)
+    print("a * b = " + multiply)
+    print("a / b = " + divide)
+    print("a^b = " + pow)
+    print("abs(a)  = " + abs)
+    print("mod(a,b) = " + mod)
+    pass
+

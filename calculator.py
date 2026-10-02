@@ -1,3 +1,4 @@
+import random
 def add(a, b):
     return a+b
 
@@ -28,13 +29,14 @@ def mod(a, b):
 
 
 if __name__ == "__main__":
-
-    print("a + b = " + add)
-    print("a - b = " + subtract)
-    print("a * b = " + multiply)
-    print("a / b = " + divide)
-    print("a^b = " + pow)
-    print("abs(a)  = " + abs)
-    print("mod(a,b) = " + mod)
+    a = random.random()
+    b = random.random()
+    print("a + b = " + add(a,b))
+    print("a - b = " + subtract(a,b))
+    print("a * b = " + multiply(a,b))
+    print("a / b = " + divide(a,b))
+    print("a^b = " + pow(a,b))
+    print("abs(a)  = " + abs(a))
+    print("mod(a,b) = " + mod(a,b))
     pass
 
